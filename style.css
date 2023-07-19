@@ -162,7 +162,7 @@ justify-content: center;
 }
 
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 460px) {
     /* For mobile phones: */
     .container{
         background-image: url(./Images/bg.gif) ;
@@ -209,7 +209,7 @@ justify-content: center;
   } 
   
 @media only screen and (max-width: 380px) {
-    /* For mobile phones: */
+    
     .container{
         background-image: url(./Images/bg.gif) ;
         background-size: 100%;
