@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify-My Fav</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./Images/spotify.gif" type="image/x-icon">
+</head>
+
+<body>
+    
+    <nav>
+        <ul>
+            <li class="brand"><img src="./Images/logo.png" alt="Logo.png">Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+            <li class="contact"><pre> Contact US: <i class="fa-solid fa-envelope"></i>  Example@gmail.com  <i class="fa-solid fa-phone"></i>  9876541230</pre></li>
+        </ul>
+        
+    </nav>
+   
+
+    <div class="container">
+
+        <div class="songs">
+            <h1>My Fav playlist</h1>
+            <div class="SongItemContainer">
+                <div class="SongItem">
+                    <img  alt="1">
+                    <span class="SongName">Name of the song</span>
+                    <span class="SongListPlay"><span class="timestamp">04:10</span><i id ='0'class="fa-solid fa-1x songItemPlay fa-circle-play"></i>  </span>
+                </div>
+                <div class="SongItem">
+                    <img  alt="1">
+                    <span class="SongName">Name of the song</span>
+                    <span class="SongListPlay"><span class="timestamp">01:10</span><i id ='1'class="fa-solid fa-1x songItemPlay fa-circle-play"></i>  </span>
+                </div>
+                <div class="SongItem">
+                    <img  alt="1">
+                    <span class="SongName">Name of the song</span>
+                    <span class="SongListPlay"><span class="timestamp">03:00</span><i id ='2'class="fa-solid fa-1x songItemPlay fa-circle-play"></i>  </span>
+                </div>
+                <div class="SongItem">
+                    <img  alt="1">
+                    <span class="SongName">Name of the song</span>
+                    <span class="SongListPlay"><span class="timestamp">02:15</span><i id ='3'class="fa-solid fa-1x songItemPlay fa-circle-play"></i>  </span>
+                </div>
+                <div class="SongItem">
+                    <img  alt="1">
+                    <span class="SongName">Name of the song</span>
+                    <span class="SongListPlay"><span class="timestamp">04:20</span><i id ='4'class="fa-solid fa-1x songItemPlay fa-circle-play"></i>  </span>
+                </div>
+                <div class="SongItem">
+                    <img  alt="1">
+                    <span class="SongName">Name of the song</span>
+                    <span class="SongListPlay"><span class="timestamp">03:10</span><i id ='5'class="fa-solid fa-1x songItemPlay fa-circle-play"></i>  </span>
+                </div>
+                <div class="SongItem">
+                    <img  alt="1">
+                    <span class="SongName">Name of the song</span>
+                    <span class="SongListPlay"><span class="timestamp">03:51</span><i id ='6'class="fa-solid fa-1x songItemPlay fa-circle-play"></i>  </span>
+                </div>
+                <div class="SongItem">
+                    <img  alt="1">
+                    <span class="SongName">Name of the song</span>
+                    <span class="SongListPlay"><span class="timestamp">03:23</span><i id ='7'class="fa-solid fa-1x songItemPlay fa-circle-play"></i>  </span>
+                </div>
+            </div>
+        </div>
+        <div class="thumbnail"></div>
+    </div>
+    <div class="player">
+        
+         <div class=" progress"><span id="Completion">00:00 </span><input type="range" name="range" id="sound-bar"  value="0" min="0" max="100"> <span id="Duration"> 00:00</span></div>
+        <div class="SongInfo">
+           <img src="./Images/playing.gif"  id="gif" width="42px"><span id="mastersongName"></span>
+    
+        </div>
+        <div class="icons"> 
+            <i class="fa-solid fa-3x fa-backward-step" id="previous"></i>
+            <i class="fa-solid fa-3x fa-circle-play" id="masterplay"></i>
+            <i class="fa-solid fa-3x fa-forward-step" id="next"></i>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/6fa6e3548b.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
