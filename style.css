@@ -196,9 +196,7 @@ justify-content: center;
 
    }
    .SongInfo{
-   
-    position: absolute;
-    top: 35px;
+    margin: 20px 0;
     font-size: 12px;
    }
    
@@ -231,7 +229,7 @@ justify-content: center;
         margin: 0px;
     }
     .contact{
-        visibility:hidden;
+        visibility: hidden;
     }
   } 
 @media only screen and (min-width: 2550px) {
